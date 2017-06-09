@@ -11,6 +11,10 @@ Przy pomocy metody `transform_dict_to_DataFrame()` można słownik z wynikami za
 
 Dane zawierają  ofert książek z kategorii `Fantasy`. Pliki:
 
-- titles_books.csv - zwykła csvka z tytułami ofert
-- titles_books_DataFrame.pickle - plik *.pickle zawierający tytuły ofert w postaci pandas.DataFrame
-- titles_books_dict.pickle - plik *.pickle zawierający tytuły ofert w postaci słownika
+- titles_books.csv - zwykły plik `*.csv` z tytułami ofert
+- titles_books_DataFrame.pickle - plik `*.pickle` zawierający tytuły ofert w postaci pandas.DataFrame
+- titles_books_dict.pickle - plik `*.pickle` zawierający tytuły ofert w postaci słownika
+
+## Uwaga
+
+Podczas zapisu do pliku `*.csv` należy w metodzie `pandas.DataFrame.to_csv()` ustawić parametr `encoding='utf-8'`.
