@@ -1,0 +1,13 @@
+Prezentacja:
+   
+   1. Opis danych, że jedna kategoria, liczba rekordów, przykładowa tabelka, w jaki sposób obrobiliśmy dane pod word2vec, stopwordsy
+   2. Koncept podejscia - word2vec i MeanShift
+   3. Opis działania word2vec, zaznaczyć, że wektor tytułu to średnia wektorów słów
+   4. Opis działania MeanShift
+   5. Opis miar jakości, zaznaczyć, że są istotne z naszego punktu widzenia
+   6. Wyniki - miary na pełnym zbiorze testowym i na samplach o różnych wielkościach
+   7. Wizualizacja:
+      - heatmapa pokazująca jakość word2vec, sample ze zbioru testowego, np. 4 autorów, każdy po 2 książki i każda po 4-5 sztuk, miara ta, dla której lepiej wyjdzie (cosinus lub euklidesowa)
+      - tsne dla zbioru testowego lub sample, najlepiej by od razu było widać tam klastry
+      - zwizualizować jakoś klastry, jeśli tsne nie zadziała
+   8. Podsumowanie i wnioski
