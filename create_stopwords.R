@@ -9,4 +9,4 @@ stopwords <- c(
 )
 stopwords <- data.frame(stopwords = stopwords)
 
-write.csv(stopwords, "stopwords.csv", row.names = FALSE)
+write.csv(stopwords, "stopwords.csv", row.names = FALSE, fileEncoding = "UTF-8")
